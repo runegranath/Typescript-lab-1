@@ -1,0 +1,1 @@
+* Länk till uppgiften: https://runegranath.github.io/Typescript-lab-1/
