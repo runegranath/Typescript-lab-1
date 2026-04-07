@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vite-project</title>
+  <script type="module" crossorigin src="/assets/index-CH0qFIWP.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DWpxSUf8.css">
+</head>
+
+<body>
+  <div class="table-container">
+    <table id="courseTable">
+      <thead>
+        <tr>
+          <th>Kurskod</th>
+          <th>Kursnamn</th>
+          <th>Progression</th>
+          <th>Kursplan</th>
+          <th>Hantera</th>
+        </tr>
+      </thead>
+      <tbody id="courseBody">
+      </tbody>
+    </table>
+  </div>
+
+  <form id="courseForm">
+    <input type="text" id="courseCode" placeholder="Kurskod" required>
+    <input type="text" id="courseName" placeholder="Kursnamn" required>
+
+    <select id="courseProgression">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+    </select>
+
+    <input type="url" id="courseSyllabus" placeholder="URL till kursplan" required>
+    <button type="submit">Lägg till kurs</button>
+  </form>
+
+  <div id="error-message" style="color: red;"></div>
+
+</body>
+
+</html>
